@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>InitServlet</servlet-name>
+    <servlet-class>com.Decentralized.util.InitServlet</servlet-class>
+    <init-param>
+      <param-name>config</param-name>
+      <param-value>/WEB-INF/config/system.properties</param-value>
+    </init-param>
+    <load-on-startup>0</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InitServlet</servlet-name>
+    <url-pattern>/initservlet</url-pattern>
+  </servlet-mapping>
+  
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckUserIDAvail</servlet-name>
+    <servlet-class>com.Decentralized.action.CheckUserIDAvail</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>KeyAvailabilityAction</servlet-name>
+    <servlet-class>com.Decentralized.action.KeyAvailabilityAction</servlet-class>
+  </servlet>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisteruserAction</servlet-name>
+    <servlet-class>com.Decentralized.action.RegisteruserAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewKdctwoAction</servlet-name>
+    <servlet-class>com.Decentralized.action.ViewKdctwoAction</servlet-class>
+  </servlet>
+  
+  
+  
+  
+  
+  
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginAction</servlet-name>
+    <servlet-class>com.Decentralized.action.LoginAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LogoutAction</servlet-name>
+    <servlet-class>com.Decentralized.action.LogoutAction</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewUserAction</servlet-name>
+    <servlet-class>com.Decentralized.action.ViewUserAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewKdcAction</servlet-name>
+    <servlet-class>com.Decentralized.action.ViewKdcAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewCredentialAction</servlet-name>
+    <servlet-class>com.Decentralized.action.ViewCredentialAction</servlet-class>
+  </servlet>
+
+
+
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewKdcThreeAction</servlet-name>
+    <servlet-class>com.Decentralized.action.ViewKdcThreeAction</servlet-class>
+  </servlet>
+  
+  
+  
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadFileAction</servlet-name>
+    <servlet-class>com.Decentralized.action.UploadFileAction</servlet-class>
+  </servlet>
+
+
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangePasswordAction</servlet-name>
+    <servlet-class>com.Decentralized.action.ChangePasswordAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewProfileAction</servlet-name>
+    <servlet-class>com.Decentralized.action.ViewProfileAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewAllFilesinDBAction</servlet-name>
+    <servlet-class>com.Decentralized.action.ViewAllFilesinDBAction</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertIntoCLDAction</servlet-name>
+    <servlet-class>com.Decentralized.action.InsertIntoCLDAction</servlet-class>
+  </servlet>
+
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetFileFromCLDAction</servlet-name>
+    <servlet-class>com.Decentralized.action.GetFileFromCLDAction</servlet-class>
+  </servlet>
+  
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserDownloadFileAction</servlet-name>
+    <servlet-class>com.Decentralized.action.UserDownloadFileAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SecretAction</servlet-name>
+    <servlet-class>com.Decentralized.action.SecretAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HashKeyAction</servlet-name>
+    <servlet-class>com.Decentralized.action.HashKeyAction</servlet-class>
+  </servlet>
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <servlet-mapping>
+    <servlet-name>UserDownloadFileAction</servlet-name>
+    <url-pattern>/UserDownloadFileAction</url-pattern>
+  </servlet-mapping>
+   
+
+  
+  
+  
+<servlet-mapping>
+    <servlet-name>GetFileFromCLDAction</servlet-name>
+    <url-pattern>/GetFileFromCLDAction</url-pattern>
+  </servlet-mapping>
+   
+
+  
+  
+   
+   <servlet-mapping>
+    <servlet-name>ChangePasswordAction</servlet-name>
+    <url-pattern>/ChangePasswordAction</url-pattern>
+  </servlet-mapping>
+   
+   
+   
+  <servlet-mapping>
+    <servlet-name>ViewKdcThreeAction</servlet-name>
+    <url-pattern>/ViewKdcThreeAction</url-pattern>
+  </servlet-mapping>
+   
+  <servlet-mapping>
+    <servlet-name>ViewKdcThreeAction</servlet-name>
+    <url-pattern>/ViewKdcThreeAction</url-pattern>
+  </servlet-mapping>
+
+  
+   
+  <servlet-mapping>
+    <servlet-name>KeyAvailabilityAction</servlet-name>
+    <url-pattern>/KeyAvailabilityAction</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet-mapping>
+    <servlet-name>ViewKdctwoAction</servlet-name>
+    <url-pattern>/ViewKdctwoAction</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>UploadFileAction</servlet-name>
+    <url-pattern>/UploadFileAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertIntoCLDAction</servlet-name>
+    <url-pattern>/InsertIntoCLDAction</url-pattern>
+  </servlet-mapping>
+  
+  
+
+
+  <servlet-mapping>
+    <servlet-name>ViewUserAction</servlet-name>
+    <url-pattern>/ViewUserAction</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>CheckUserIDAvail</servlet-name>
+    <url-pattern>/CheckUserIDAvail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisteruserAction</servlet-name>
+    <url-pattern>/RegisteruserAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginAction</servlet-name>
+    <url-pattern>/LoginAction</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>LogoutAction</servlet-name>
+    <url-pattern>/LogoutAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewKdcAction</servlet-name>
+    <url-pattern>/ViewKdcAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewCredentialAction</servlet-name>
+    <url-pattern>/ViewCredentialAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewProfileAction</servlet-name>
+    <url-pattern>/ViewProfileAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewAllFilesinDBAction</servlet-name>
+    <url-pattern>/ViewAllFilesinDBAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SecretAction</servlet-name>
+    <url-pattern>/SecretAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HashKeyAction</servlet-name>
+    <url-pattern>/HashKeyAction</url-pattern>
+  </servlet-mapping>
+  
+  
+  <welcome-file-list>
+    <welcome-file>MainHome.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
